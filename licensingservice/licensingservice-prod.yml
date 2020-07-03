@@ -1,23 +1,23 @@
 example:
-  property: '"I AM A PROD PROPERTY OVERRIDE!!!!!!!!!!!!8"'
+    property: I AM A PROD PROPERTY OVERRIDE!!!!!!!!!!!!7
 redis:
-  port: '"6379"'
-  server: '"redis"'
+    port: 6379
+    server: redis
 signing:
-  key: '"345345fsdfsf5345"'
+    key: 345345fsdfsf5345
 spring:
-  database:
-    driverClassName: '"org.postgresql.Driver"'
-  datasource:
-    password: '"{cipher}217b23d6209b10bd82c49a9df6490670052a9cd9d4403dcc1288db21c35c48ac"'
-    platform: '"postgres"'
-    testWhileIdle: '"true"'
-    url: '"jdbc:postgresql://localhost:5432/eagle_eye_prod"'
-    username: '"postgres_prod"'
-    validationQuery: '"SELECT 1"'
-  jpa:
-    database: '"POSTGRESQL"'
-    properties:
-      hibernate:
-        dialect: '"org.hibernate.dialect.PostgreSQLDialect"'
-    show-sql: '"true"'
+    database:
+        driverClassName: org.postgresql.Driver
+    datasource:
+        password: {cipher}217b23d6209b10bd82c49a9df6490670052a9cd9d4403dcc1288db21c35c48ac
+        platform: postgres
+        testWhileIdle: true
+        url: jdbc:postgresql://localhost:5432/eagle_eye_prod
+        username: postgres_prod
+        validationQuery: SELECT 1
+    jpa:
+        database: POSTGRESQL
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.PostgreSQLDialect
+        show-sql: true
