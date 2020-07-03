@@ -1,4 +1,4 @@
-example.property: "I AM A PROD PROPERTY OVERRIDE!!!!!!!!!!!!5"
+example.property: "I AM A PROD PROPERTY OVERRIDE!!!!!!!!!!!!6"
 spring.jpa.database: "POSTGRESQL"
 spring.datasource.platform:  "postgres"
 spring.jpa.show-sql: "true"
